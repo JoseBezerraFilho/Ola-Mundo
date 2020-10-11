@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  /* box-sizing: content-box; => este valor indica que o tamanho da caixa é definido pelo conteúdo, ou seja: box + padding + border. Este valor vem por padrão */
+  box-sizing: border-box; /* O valor da caixa total tem seu valor diminuído em função do padding e border atribuído. */
+}
+
+
+/* Observe abaixo que definimos o container como 400x400 e percebemos que ao adicionarmos o padding e border, o conteúdo do elemento passa a ter 430x430 */
+
+.header {
+  background-color: #00ff00;
+  width: 400px;
+  height: 400px;
+  border: 5px solid #000;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+img {
+  width: 50%;
+}
